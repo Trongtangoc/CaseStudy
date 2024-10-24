@@ -38,7 +38,7 @@ function display(tasks) {
 }
 
 function toggleComplete(index) {
-    // Đảo trạng thái hoàn thành của task
+    // thay đổi trạng thái hoàn thành của task
     tasks[index].completed = !tasks[index].completed;
     display(tasks);
 }
